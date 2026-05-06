@@ -1,0 +1,237 @@
+body{
+    height: 100vh;
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-app{
+    height: 10cm;
+    width:7cm;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.farmer-img{
+    height: 10cm;
+    width:6cm;
+    border-radius: 4px;
+    animation: animate 1s linear ;
+}
+@keyframes animate {
+    from{
+            transform: scale(.4);
+    }
+    to{
+           transform: scale(1);
+    }
+}
+
+.linkHome{
+    height: 1.5cm;
+    width: 3cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: black;
+    border: none;   
+}
+.linkHome a{
+    color:white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/*  */
+
+.btn{
+    margin-left: -1.5cm;
+    background-image: url('./assets/farmerconsumer.jpg');
+    background-size: cover;
+    height: 15cm;
+    width:15cm;
+}
+
+.farmer{
+    height: 1cm;
+    width: 4cm;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-image: linear-gradient(45deg, green, lightgreen);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:black;
+}
+.consumer{
+    height: 1cm;
+    width: 4cm;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-image: linear-gradient(45deg, skyblue, lightgreen);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:black;
+}
+
+.background-img{
+    background-size: cover;
+}
+.links{
+    position: absolute;
+    margin-left: 6cm;
+    margin-top: 5cm;
+}
+.consumer{
+    margin-top: 30px;
+}
+
+.farmerlogin-con{
+    height: 5cm;
+    width:8cm;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.farmerlogin-con input{
+    height: 1cm;
+    width: 7cm;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
+.farmerlogin-con button{
+    height: 1cm;
+    width: 3cm;
+    border: none;
+    outline:none;
+}
+.button{
+    margin-top: 1cm;
+}
+.button :Link{
+    height: 1cm;
+    width: 3cm;
+    text-decoration: none;
+    color:black;
+    margin-left: 50px;
+
+}
+/*  */
+
+.createFarmer{
+    height: 17cm;
+    width: 8cm;
+    margin-left: 1cm;
+    margin-top: -.5cm;
+    background-color: grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.createFarmer input{
+    margin-top: 10px;
+    width: 7cm;
+    height: 1cm;
+    margin-left: 15px;
+    border-radius: 4px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+.createFarmer button
+{
+    position: absolute;
+    height: 1cm;
+    width:3cm;
+    outline: none;
+    border: none;
+    background-color: aquamarine;
+    margin-left: 2cm;
+    border-radius: 9px;
+    margin-top: 20px;
+}
+.setValues{
+    height: 3cm;
+    width:8cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 40px;
+}
+.setValues input{
+    text-align: center;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+}
+.setValues button{
+    background-color: greenyellow;
+    margin-left: 2cm;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+.table button{
+    height: .8cm;
+    width: 2cm;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    column-gap: 8px;
+}
+.table button:nth-child(1){
+    background-color: greenyellow;
+}
+.table button:nth-child(2){
+    background-color: red;
+}
+.createcon-form{
+    height: 10cm;
+    width: 8cm;
+    margin-left: 1cm;
+    margin-top: -1cm;
+    background-color: blue;
+    display: flex;
+    border-radius: 8px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.createcon-form input{
+    height: 1cm;
+    text-align: center;
+    width: 7cm;
+    margin-left: .5cm;
+    margin-top: 10px;
+}
+.createcon-form button{
+    position: absolute;
+    margin-left: -4.5cm;
+    margin-top: 2cm;
+    height: 1cm;
+    width: 2cm;
+    outline: none;
+    border:none;
+    border-radius: 3px;
+    background-image: linear-gradient(45deg,white,grey);
+}
+.prod-con table input{
+    width: 1.5cm;
+}
